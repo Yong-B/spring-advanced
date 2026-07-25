@@ -40,7 +40,7 @@ public class TodoService {
 
         return new TodoSaveResponse(
                 savedTodo.getId(),
-                savedTodo.getTitle(),
+                savedTodo.getTitle(),   
                 savedTodo.getContents(),
                 weather,
                 new UserResponse(user.getId(), user.getEmail())
