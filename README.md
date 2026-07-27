@@ -46,5 +46,5 @@ Spring Boot 기반의 일정(Todo) 관리 API 서버입니다. 회원가입/로�
 ### 6. 자체 개선 — 외부 API 장애 격리
 - `TodoService.saveTodo()`가 외부 날씨 API(`WeatherClient`) 실패 시 함께 실패하던 구조를 개선
 - 날씨 조회 실패를 흡수하여 기본값으로 대체, 부가 기능(날씨) 장애가 핵심 기능(Todo 생성)에 영향을 주지 않도록 분리
-
+- 관련 TIL: [Lv6용 TIL](https://atom700.tistory.com/entry/Lv6%EC%9A%A9-TIL)
 
